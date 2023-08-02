@@ -1,0 +1,68 @@
+.Clima-Container{
+    height: 100%;
+    margin: 0 auto;
+}
+
+.Clima{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.Clima-atual{
+    display: flex;
+    align-items: center;
+}
+
+.Clima-atual>figure{
+    display: flex;
+    align-items: center;
+    border-right: 1px solid white;
+    height: 2.5rem;
+    font-size: 1.8rem;
+    padding: .5rem;
+}
+
+.Clima-atual>figure>img{
+    width: 4rem;
+    margin: 0;
+}
+
+.Info>p{
+    padding-left: .5rem;
+    
+}
+
+.Clima-em3horas{
+    display: flex;
+    align-items: center;
+    font-size: .8rem;
+    height: 2rem;
+    align-items: end;
+}
+
+.Clima-em3horas>figure{
+    display: flex;
+    align-items: center;
+    border-right: 1px solid white;
+    height: .2rem;
+    font-size: .8rem;
+    padding: .3rem;
+}
+
+.Clima-em3horas>figure>img{
+    width: 2rem;
+    margin: 0;
+}
+
+.Clima-em3horas>p{
+    padding-left: .5rem;
+}
+
+.Clima-buscando{
+    margin-top: 3rem;
+    text-align: center;
+    text-justify: center;
+}

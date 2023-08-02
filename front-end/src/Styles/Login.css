@@ -1,0 +1,112 @@
+.Login-Container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, rgba(0,57,82,1) 28%, rgba(70,167,193,1) 100%);
+}
+
+.Login-Section-LoginUser{
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1rem;
+    background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.Login-H1{
+    width: 80%;
+    text-align: center;
+    margin: 1rem;
+    font-size: 2.5rem;
+    color: rgba(0,57,82,1);
+}
+
+/* Sublinhado embaixo do h1 */
+.Login-H1::after{
+    content: ' ';
+    display: block;
+    width: 100%;
+    height: .1rem;
+    margin-top: .5rem;
+    background: -webkit-linear-gradient(left, rgba(147,184,189,0) 0%,rgba(70,167,193,1) 20%,rgba(0,57,82,1) 53%,rgba(70,167,193,1) 79%,rgba(147,184,189,0) 100%); 
+}
+
+.Login-Form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Login-Div-Email, .Login-Div-Senha{
+    width: 75%;
+    margin: .2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Login-Label-Email, .Login-Label-Senha{
+    width: 10%;
+    height: 2.3rem;
+    text-align: center;
+    line-height: 2.3rem;
+    background-color: rgba(0,57,82,1);
+}
+
+.Login-Input-Email, .Login-Input-Senha{
+    width: 90%;
+    height: 2.3rem;
+    margin: .5rem 0;
+    border: none;
+    padding-left: .5rem;
+    background-color: rgba(0, 57, 82, 0.5);
+}
+
+/* Cor da descrição */
+.Login-Input-Email::placeholder, .Login-Input-Senha::placeholder{
+    color: rgb(255, 255, 255);
+} 
+
+/* Não gerar 'caixa' ao redor quando clicado para digitar */
+.Login-Input-Email:focus, .Login-Input-Senha:focus{
+    outline: none;
+}
+
+.erro{
+    font-size: .9rem;
+    color: red;
+}
+
+.Login-Button-Entrar{
+    width: 75%;
+    height: 2.2rem;
+    margin: 1rem 0 2rem;
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+    background-color: rgba(0,57,82,1);
+}
+
+.Login-Button-Entrar:hover{
+    background-color: rgba(0, 57, 82, 0.5);
+}
+
+.Login-Div-Cadastro{
+    margin-bottom: 1.2rem;
+}
+
+.Login-Link-Cadastro{
+    margin-left: .3rem;
+    text-decoration: none;
+    font-weight: 700;
+    color: rgba(0,57,82,1);
+}
+
+.Login-Link-Cadastro:hover{
+    color: rgba(0, 57, 82, 0.5);
+}

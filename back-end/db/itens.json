@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "quant": 4,
+        "nome": "Toalha",
+        "preco": 65.99
+    },
+    {
+        "id": 2,
+        "quant": 1,
+        "nome": "Kit Pratos",
+        "preco": 150.59
+    }
+]

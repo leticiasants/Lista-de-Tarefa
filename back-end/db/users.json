@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "email": "matheus@teste.com",
+    "password": "$2b$10$DhwCh6tFHEdzKuhjqvmQkO22u0g1i.Itsa/Q94D0qPSdm2/6XGB3."
+  },
+  {
+    "id": 2,
+    "email": "flavia@teste.com",
+    "password": "$2b$10$WBxkI4DIjaXHM8z4ZNqYAu6Wz/bnE5GVzc9XFKgA1tIeiZdVQkRYy"
+  },
+  {
+    "id": 3,
+    "email": "leticia@teste.com",
+    "password": "$2b$10$ocmsxmJOkE.RdRCx4iMHV../Myj5GfHRDpPza4YzqhfgZ8jDPkO0C"
+  }
+]
